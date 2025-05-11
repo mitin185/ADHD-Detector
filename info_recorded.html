@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333333; /* Dark grey background */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            cursor: pointer;
+        }
+        #message {
+            font-size: 24px;
+            color: #f1f1f1; /* Light text color to contrast with dark background */
+            padding: 20px;
+            background: #4d4d4d; /* Darker grey block */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body onclick="nextPortal()">
+    <div id="message">
+        Your information is successfully recorded. <br>
+        We will contact you soon.
+    </div>
+
+    <script>
+        function nextPortal() {
+            // Replace with the URL of the next portal
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>

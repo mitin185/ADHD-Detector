@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+}
+
+.section-title {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.symptom {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.symptom input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.message {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  display: none;
+}
